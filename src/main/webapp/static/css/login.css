@@ -1,0 +1,121 @@
+.exception {
+    font-size: 1rem;
+    color: #ff0000;
+    margin-bottom: 1rem;
+}
+
+.good {
+    font-size: 1rem;
+    color: #00ff00;
+    margin-bottom: 1rem;
+}
+
+#password-match {
+    display: none;
+}
+
+#login-content {
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 2rem;
+}
+
+#login-header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 2rem 2rem 0 0;
+    border: 2px solid white;
+    font-size: 2rem;
+    color: #555555;
+    padding: 0 !important;
+}
+
+.active-header {
+    color: #ffffff;
+}
+
+
+#login-body {
+    width: 100%;
+    text-align: center;
+}
+
+.login-registration {
+    width: 50%;
+}
+
+.login-registration:hover {
+    color: #ffffff;
+}
+
+.lb {
+    border-left: 2px solid white;
+}
+
+.semi-header {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.semi-body {
+    text-align: center;
+    font-size: 1.33rem;
+    width: 100%;
+}
+
+.login-input {
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 2rem;
+    border: 2px solid white;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    width: 95%;
+}
+
+.login-input:focus {
+    outline: none;
+}
+
+::-ms-reveal {
+    filter: invert(100%);
+}
+
+.login-input.incorrect-password {
+    border: 2px solid red;
+}
+
+#login-semi-header, #forgot-semi-header, #mail-semi-header, #mail2-semi-header {
+    display: none;
+}
+
+#login-semi-body, #forgot-semi-body, #mail-semi-body, #mail2-semi-body {
+    display: none;
+}
+
+input[type=checkbox], input[type=radio] {
+    transform: scale(2);
+    filter: invert(100%) hue-rotate(18deg) brightness(1.7);
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.login-button {
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 2rem;
+    border: 2px solid white;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 1rem;
+}
+
+.login-scrolling::-webkit-scrollbar {
+    width: 0;
+}
+
+
